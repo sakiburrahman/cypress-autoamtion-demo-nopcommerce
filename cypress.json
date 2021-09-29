@@ -1,0 +1,28 @@
+{
+    "env": {
+      "dev_env": "dev",
+      "qa_env": "qa",
+      "live_Env": "live"
+    },
+    "requiredFilesPath": {
+      "spanish_scanned_document": "required-files/Scanned_Spanish.pdf"
+    },
+    "watchForFilesChanges": false,
+    "chromeWebSecurity": false,
+    "viewportWidth": 2045,
+    "viewportHeight": 1150,
+    "waitForAnimation": true,
+    "animationDistanceTreshold": 20,
+    "defaultCommandTimeout": 15000,
+    "execTimeout": 60000,
+    "pageLoadTimeout": 60000,
+    "requestTimeout": 15000,
+    "responseTimeout": 15000,
+    "video": true,
+    "failOnStatusCode": false,
+    "numTestsKeptInMemory": 50,
+    "experimentalStudio": true,
+    "projectId": "qy4o4c"
+    
+  }
+  

@@ -1,0 +1,40 @@
+{
+  "name": "cypress-autoamtion-demo-nopcommerce",
+  "version": "1.0.0",
+  "description": "Demo nopcommerce web application automation using cypress E2E testing framework",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:verify": "cypress verify",
+    "cy:record": "cypress run -- --record --spec 'cypress/integration/my-spec.js'",
+    "cy:percy": "percy exec -- cypress run",
+    "cy:run-tests": "cypress run",
+    "cy:run:chrome": "cypress run --browser chrome",
+    "cy:run:firefox": "cypress run --browser firfox",
+    "cy:run-tests-with-reporter": "cypress run --reporter cypress-image-snapshot/reporter",
+    "cy:run-tests-with-no-failure": "cypress run --env failonSnapshotDiff=false",
+    "cy:update-snapshot": "cypress run --env updateSnapshots=true",
+    "cy:run-dashboard": "cypress run --record --key 914e0330-1504-44bd-ae5e-97d1d1eed210"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sakiburrahman/cypress-autoamtion-demo-nopcommerce.git"
+  },
+  "keywords": [
+    "cypress"
+  ],
+  "author": "Md. Sakibur Rahman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sakiburrahman/cypress-autoamtion-demo-nopcommerce/issues"
+  },
+  "homepage": "https://github.com/sakiburrahman/cypress-autoamtion-demo-nopcommerce#readme",
+  "devDependencies": {
+    "@percy/cli": "^1.0.0-beta.68",
+    "@percy/cypress": "^3.1.1",
+    "cypress": "^8.4.1",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-image-snapshot": "^4.0.1"
+  }
+}
